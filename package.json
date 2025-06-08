@@ -1,11 +1,19 @@
 {
   "name": "highlite",
+  "productName": "HighLite",
   "version": "1.2.0",
-  "description": "A minimal Electron application with TypeScript",
+  "description": "A RuneLite-esque Client for the game High Spell",
+  "homepage": "https://github.com/Highl1te/HighliteDesktop#readme",
+  "bugs": {
+    "url": "https://github.com/Highl1te/HighliteDesktop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Highl1te/HighliteDesktop.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": "Highlite Team",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://electron-vite.org",
-  "license": "LGPL-3.0-or-later",
   "scripts": {
     "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
     "typecheck:web": "tsc --noEmit -p tsconfig.web.json --composite false",
